@@ -4,5 +4,9 @@ export JADX_VERSION := 1.1.0
 jadxjar:
 	cd jadx-cli && gradle jar
 
+.PHONY: jadxcorejar
+jadxcorejar:
+	cd jadx-core && gradle jar
+
 .PHONY: all
-all: jadxjar
+all: jadxjar jadxcorejar
