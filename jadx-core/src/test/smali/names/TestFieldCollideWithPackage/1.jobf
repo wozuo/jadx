@@ -1,0 +1,4 @@
+c first.A = C0000A
+c second.A = C0001A
+f first.A.first:Lfirst/A; = f0first
+f first.A.second:Lsecond/A; = f1second

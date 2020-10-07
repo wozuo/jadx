@@ -1,0 +1,2 @@
+f TestDuplicatedNames.fieldName:Ljava/lang/String; = f0fieldName
+m TestDuplicatedNames.run()Ljava/lang/String; = m0run

@@ -22,3 +22,15 @@ applicationDistribution.with {
 		include 'LICENSE'
 	}
 }
+
+mainClassName = "jadx.cli.JadxCLI"
+
+jar {
+  manifest { 
+    attributes "Main-Class": "$mainClassName"
+  }  
+
+  from {
+    configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+  }
+}

@@ -1,0 +1,4 @@
+c deobf.TestKotlinMetadata = C0000TestKotlinMetadata
+f deobf.TestKotlinMetadata.id:I = f0id
+m deobf.TestKotlinMetadata.makeTwo(I)I = mo1makeTwo
+p deobf = p000deobf
